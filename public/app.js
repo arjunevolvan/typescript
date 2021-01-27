@@ -1,11 +1,30 @@
 "use strict";
-exports.__esModule = true;
-var Student_1 = require("./Student");
-var Teacher_1 = require("./Teacher");
-var teacher = new Teacher_1["default"]();
-console.log(teacher.data);
-var student = new Student_1["default"]();
-console.log(student.data);
+console.log('app.js file');
+//enum
+//  enum days{
+//     mon = 'mon'
+//     // ,tue,wed,thus,fri,sat,sun
+// }
+// function whichDay(day:days){
+//     return day;
+// }
+// // let whichDay:days;
+// // whichDay =days.tue
+// console.log(whichDay(days.mon));
+// console.log(users({name:'anil',age:30}).name);
+//Genrics
+// function users<T>(data:T):T
+// {
+//     return data
+// }
+//Module
+// import sLogin from './Student'
+// import tLogin from './Teacher'
+// let teacher = new tLogin();
+// console.log(teacher.data);
+// let student = new sLogin();
+// console.log(student.data)
+//Namespace
 // /// <reference path="./utils.ts" />
 //  namespace UserUtils{
 //     export class users extends parent implements getType{
