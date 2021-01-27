@@ -1,17 +1,22 @@
-var UserUtils;
-(function (UserUtils) {
-    var users = /** @class */ (function () {
-        function users() {
-        }
-        users.prototype.getName = function () {
-            return 'anil';
-        };
-        return users;
-    }());
-    UserUtils.users = users;
-})(UserUtils || (UserUtils = {}));
-var a = new UserUtils.users();
-console.log(a.getName());
+"use strict";
+exports.__esModule = true;
+var Student_1 = require("./Student");
+var Teacher_1 = require("./Teacher");
+var teacher = new Teacher_1["default"]();
+console.log(teacher.data);
+var student = new Student_1["default"]();
+console.log(student.data);
+// /// <reference path="./utils.ts" />
+//  namespace UserUtils{
+//     export class users extends parent implements getType{
+//         getName(){
+//             return this.name
+//         }
+//     }
+// }
+// let a = new UserUtils.users();
+// a.setName('bruce')
+// console.log(a.getName())
 //inheritance
 // export{}
 // class parent{

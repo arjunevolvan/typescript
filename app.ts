@@ -1,14 +1,52 @@
-/// <reference path="./utils.ts" />
- namespace UserUtils{
-    export class users extends parent implements getType{
-        getName(){
-            return this.name
-        }
-    }
-}
-let a = new UserUtils.users();
-a.setName('bruce')
-console.log(a.getName())
+import sLogin from './Student'
+import tLogin from './Teacher'
+
+
+let teacher = new tLogin();
+console.log(teacher.data);
+
+let student = new sLogin();
+console.log(student.data)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// /// <reference path="./utils.ts" />
+//  namespace UserUtils{
+//     export class users extends parent implements getType{
+//         getName(){
+//             return this.name
+//         }
+//     }
+// }
+// let a = new UserUtils.users();
+// a.setName('bruce')
+// console.log(a.getName())
 
 
 
